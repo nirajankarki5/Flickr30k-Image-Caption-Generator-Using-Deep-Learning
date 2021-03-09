@@ -75,10 +75,10 @@ caption.
 * After training your model, place them into ```model_checkpoints/```
 
 ## Requirements
-- Tensorflow
-- Anaconda
-- Python 3.7
-- Tkinter
-- Numpy
+i. Tensorflow
+ii. Anaconda
+iii. Python 3.7
+iv. Tkinter
+v. Numpy
 
 * Training time: ~21 hrs on i7 8750H

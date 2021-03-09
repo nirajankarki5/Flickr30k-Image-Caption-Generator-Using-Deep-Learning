@@ -4,7 +4,7 @@
 * To recognize the context of an image and describe them in English.
 
 ## Block Diagram
-![](images/systemdiagram.png)
+![](images/systemdiagram.PNG)
 
 ## Basic phases for caption generation
 
@@ -13,7 +13,7 @@
 
 ### Reading the data
 * I created a dictionary which contains the name of the image without its extension type as a key and a list of the 5 captions for the corresponding images as values. In our datasets, there consists of large number of words where the top 50 most occurring and least occurring word are shown as follows:
-![](images/words.jpg)
+![](images/words.JPG)
 
 ### Data Cleaning
 * Lowercasting all the characters and converting all the non-alphabetic characters (such as ‘#’, ‘%’, ‘$’, ‘&’, ‘@’ etc.), removing them and saving to a new file named ‘‘tokens_clean.txt’’. 
@@ -58,11 +58,11 @@ caption.
 
 ## RESULTS
 * Generated captions on test images:
-![](images/caption3.jpg)
-![](images/caption4.jpg)
+![](images/caption3.JPG)
+![](images/caption4.JPG)
 
 * UI was created using Tkinter. Screenshot:
-![](images/ui.jpg)
+![](images/ui.JPG)
 
 
 ## Implementation
@@ -75,7 +75,7 @@ caption.
 * After training your model, place them into ```model_checkpoints/```
 
 ## Requirements
-- Tensorflow 1.15
+- Tensorflow
 - Anaconda
 - Python 3.7
 - Tkinter

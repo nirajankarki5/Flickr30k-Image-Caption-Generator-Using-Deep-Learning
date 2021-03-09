@@ -58,11 +58,11 @@ caption.
 
 ## RESULTS
 * Generated captions on test images:
-![](images/caption3.JPG)
-![](images/caption4.JPG)
+- ![](images/caption3.JPG)
+- ![](images/caption4.JPG)
 
 * UI was created using Tkinter. Screenshot:
-![](images/ui.JPG)
+- ![](images/ui.JPG)
 
 
 ## Implementation

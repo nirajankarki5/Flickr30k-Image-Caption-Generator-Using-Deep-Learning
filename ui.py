@@ -15,7 +15,6 @@ def choose_file():
     lbl.image = img
     
 
-
 root = Tk()
 root.title("Image Caption Generator Using Deep Learning")
 root.geometry("650x650")
@@ -43,19 +42,15 @@ lbl.pack()
 
 entry1 = Entry(frm,width =90)
 
-
 button1 = Button(frm, text = "Select Image",command = choose_file, width=20)
 
 button2 = Button(frm, text="Generate Caption", command= lambda : generateCaption(mylabel), width=20)
-
 
 
 entry1.pack()
 mylabel.pack()
 button1.pack(pady=5)
 button2.pack(padx=10, pady=10)
-
-
 
 
 root.mainloop()

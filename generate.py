@@ -31,14 +31,14 @@ resnet50_model = Model (resnet50_model.input, resnet50_model.layers[-2].output)
 
 
 
-# Generate Captions for a random image in test dataset
-#Using Greedy Search Algorithm
+# Generate Captions for a random image
+# Using Greedy Search Algorithm
 
 def predict_caption(photo):
 
     inp_text = "startseq"
 
-    #max_len = 38 which is maximum length of caption
+    #max_len = 80 which is maximum length of caption
     for i in range(80):
         sequence = [word_to_index[w] for w in inp_text.split() if w in word_to_index]
         sequence = pad_sequences([sequence], maxlen=80, padding='post')
@@ -84,7 +84,6 @@ def runModel(img_name):
     #img_name = input("enter the image name to generate:\t")
 
     print("Encoding the image ...")
-    #img_name = "input.jpg"
     photo = encode_image(img_name).reshape((1, 2048))
 
 

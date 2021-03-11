@@ -61,9 +61,17 @@ caption.
 - ![](images/caption3.JPG)
 - ![](images/caption4.JPG)
 
-* UI was created using Tkinter. Screenshot:
+#### UI was created using Tkinter.
+Screenshot:
 - ![](images/ui.JPG)
 
+#### Summary
+1. Image sent to CNN(Resnet50).
+2. Last layer of CNN is removed.
+3. CNN produces image vector of length 2048.
+4. Image vector and Caption sent to model.
+5. Model generates probability distribution.
+6. Select word with maximum probability.
 
 ## Implementation
 - run ```text_data_processing.ipynb``` to create dictionary.

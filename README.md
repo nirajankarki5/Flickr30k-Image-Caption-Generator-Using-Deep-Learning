@@ -9,7 +9,7 @@
 ## Basic phases for caption generation
 
 ### Data Collection from Dataset
-* For the image caption generator, Flickr30K dataset is used. There are also other big datasets like Flickr8k and MSCOCO dataset. The Flickr30k dataset contains 30,000 images each with 5 captions.
+* For the image caption generator, Flickr30K dataset is used. There are also other datasets like Flickr8k and MSCOCO dataset. The Flickr30k dataset contains about 30000 images each with 5 captions.
 
 ### Reading the data
 * I created a dictionary which contains the name of the image without its extension type as a key and a list of the 5 captions for the corresponding images as values. In our datasets, there consists of large number of words where the top 50 most occurring and least occurring word are shown as follows:
@@ -75,10 +75,10 @@ caption.
 * After training your model, place them into ```model_checkpoints/```
 
 ## Requirements
-i. Tensorflow
-ii. Anaconda
-iii. Python 3.7
-iv. Tkinter
-v. Numpy
+1. Tensorflow
+2. Anaconda
+3. Python 3.7
+4. Tkinter
+5. Numpy
 
-* Training time: ~21 hrs on i7 8750H
+####Training time: ~21 hrs on i7 8750H

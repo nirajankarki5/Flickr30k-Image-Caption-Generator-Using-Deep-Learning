@@ -81,4 +81,4 @@ caption.
 4. Tkinter
 5. Numpy
 
-####Training time: ~21 hrs on i7 8750H
+#### Training time: ~21 hrs on i7 8750H
